@@ -1,0 +1,43 @@
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+}
+
+.navbar .btn img,
+.navbar .form-control img {
+    width: 20px;  /* Ajuster à la taille souhaitée */
+    height: auto; /* Conserver les proportions */
+}
+
+
+.img1_sec1 {
+    max-width: 100%; /* Empêche l'image de dépasser la largeur du conteneur */
+    height: auto; /* Garde les proportions */
+}
+
+.img1_sec1 img {
+    max-width: 50%; /* Ajuste la taille de chaque image */
+}
+
+.img1_sec1_sub img {
+    max-width: 60%; /* Ajuste la taille de chaque image */
+}
+
+.card-img-top {
+    height: 200px;  /* Fixe une hauteur pour les images */
+    object-fit: cover; /* Ajuste l’image sans la déformer */
+}
+
+.card-footer {
+    background: #f8f9fa; /* Fond léger pour bien séparer */
+}
+
+.btn i {
+    font-size: 1.2rem; /* Agrandit les icônes */
+}
+
+.icon_btn {
+    width: 20px;  /* Largeur fixe */
+    height: 20px; /* Hauteur fixe */
+    object-fit: contain; /* Garde les proportions */
+}
