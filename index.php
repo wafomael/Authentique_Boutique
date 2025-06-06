@@ -1,9 +1,8 @@
 <?php
    include "librairie/fonction.lib.php";
-   
+
    $pdo = Connect();
-   
-   
+
    include "inclus/entete.inc";
    ?>
 <?php
